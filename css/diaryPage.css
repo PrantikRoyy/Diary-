@@ -1,0 +1,48 @@
+.inner_tab {
+    border: thin black solid; 
+    width: 500pt;
+    height: 72pt;
+    background-color: aliceblue;
+}
+
+#entry_list {
+    border: thin black solid; 
+    width: 500pt;
+    height: 390pt;
+    margin-left: 300pt;
+    overflow-y: scroll;
+    background-color: aliceblue;
+}
+
+body {
+    text-align: center;
+    background-color: grey;
+}
+
+header {
+    border: thin black solid; 
+    background-color: wheat;
+}
+
+h1 {
+    text-decoration: underline;
+    background-color: aliceblue;
+}
+
+h2 {
+    background-color: aliceblue;
+}
+
+footer {
+    border: thin black solid; 
+    height: 20pt;
+    background-color: aliceblue;
+}
+
+#main {
+    background-color: grey;
+}
+
+button {
+    margin: 0pt;
+}

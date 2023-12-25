@@ -1,0 +1,40 @@
+.diary_tab {
+    border: thin black solid; 
+    width: 225pt;
+    height: 120pt;
+    margin: 20pt;
+    float: left;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#main {
+    background-color: grey;
+}
+
+.diary_row {
+    border: thin black solid; 
+    border-bottom: none;
+}
+
+#user_diaries {
+    border: thin solid black; 
+    height:450pt; 
+    width: 1110pt;
+    overflow-y: scroll;
+}
+
+img {
+    background-color: white;
+}
+
+header {
+    border: thin solid black; 
+    text-align: center; 
+    overflow: auto;
+    background-color: wheat;
+}
+
+.utility {
+    text-align: center;
+}

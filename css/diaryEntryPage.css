@@ -1,0 +1,78 @@
+header {
+    text-align: center;
+    border: thin solid black;
+    margin-bottom: 10pt;
+    background-color: wheat;
+}
+
+.subtitles {
+    border: thin solid black;
+    width: 536pt;
+    overflow: auto;
+    background-color: aliceblue;
+}
+
+button {
+    float: left;
+}
+
+#l_side, #r_side {
+    border: thin solid black;
+    width: 540pt;
+    height: 450pt;
+    text-align: center;
+    overflow-y: scroll;
+    background-color: grey;
+}
+
+#r_side {
+    float: right;
+    background-color: grey;
+}
+
+#l_side {
+    float: left;
+    background-color: grey;
+}
+
+.l_entry, .r_entry {
+    
+    padding-bottom: 100pt;
+    text-align: center;
+    background-color: grey;
+}
+
+.entry_text, figure{
+    width: 529pt;
+    border: thin solid black;
+    margin-left: 3pt;
+    height:100pt;
+    overflow:scroll;
+    background-color: aliceblue;
+}
+
+input {
+    width: 529pt;
+    height:100pt;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10pt;
+    border: thin solid black;
+}
+
+#page_turns {
+    border: thin solid black;
+}
+
+.bordered { 
+    border: thin solid black;
+    overflow: auto;
+    background-color: aliceblue;
+}
+
+.bordered button{ 
+    margin-left: 50pt;
+   
+}

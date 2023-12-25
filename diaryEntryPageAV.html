@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <head>
+        <title> entry page </title>
+        <link rel="stylesheet" href="css/diaryEntryPage.css" type="text/css">
+        <script src="js/diaryEntryPageAv.js"></script>
+    </head>
+    <body>
+        <header style="overflow:auto"> 
+            <a href="diaryPageAv.html"> <button type="button"> back to entry selection </button> </a> <a href="diaryEntryPage.html" style="float:right"> <button type="button"> Log out </button> </a>
+            <h1> Private Entrys' </h1>
+        </header>
+        <div id="main">
+
+            <div id="l_side">
+                <button type="button" onclick="leftEntryName()"> edit entry name</button> <br>
+                <p style="text-decoration:underline" class="bordered" id="leftEntryName"> Entry name </p>
+                
+                <button type="button" name="left_entry" onclick="newLeftTopic()"> new topic</button>
+
+            </div>
+
+            <div id="r_side">
+                <button type="button" onclick="rightEntryName()"> edit entry name</button> <br>
+                <p style="text-decoration:underline" class="bordered" id="rightEntryName"> Entry name </p>
+
+                <button type="button" name="left_entry" onclick="newRightTopic()"> new topic </button>
+
+            </div>
+        </div>
+
+        <footer>
+            <div>
+                <div id="page_turns" style="float:left;">
+                    <a href="diaryEntryPageAv.html"> <img src="images/double_left_button.png" width="50pt" height="50pt" onclick="diaryEntryPageAv.html"> </a> 
+                    <a href="diaryEntryPageAv.html"> <img src="images/left_button.png" width="50pt" height="50pt" onclick="diaryEntryPageAv.html"> </a>
+                </div>
+
+                <div id="page_turns" style="float:right;">
+                    <a href="diaryEntryPageAv.html"> <img src="images/right_buttons.png" width="50pt" height="50pt" onclick="diaryEntryPageAv.html"> </a> 
+                    <a href="diaryEntryPageAv.html"> <img src="images/double_right_button.png" width="50pt" height="50pt"> </a> 
+                </div> 
+            </div>
+        </footer>
+
+    </body>
+</html>

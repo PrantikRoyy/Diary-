@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <hearder>
+
+        <link href="css/diaryPage.css" type="text/css" rel="stylesheet">
+        <script src="js/diaryPageAV.js"></script>
+    </hearder>
+
+    <body>
+        <div id="main">
+
+            <header style="overflow:auto"> 
+                <a href="IndexAv.html" style="float:left"> <button type="button"> back to diary selection </button> </a>
+                Auhtor diary page
+                <a href="diaryPage.html" style="float:right"> <button type="button"> log out </button> </a>
+            </header>
+            
+            <h1 id="diaryName">
+                Diary Name
+            </h1>
+
+            <button type="button" onclick="editDiaryName()"> edit diary name </button>
+            
+            <h2 id="authorName">
+                Author Name
+            </h2>
+            
+            <button type="button" onclick="editAuthorName()"> edit Author name </button>
+
+            <div>
+                <div id="entry_list">
+                    Entries
+                </div>
+            </div>
+    
+            <footer>
+                <button type="button" onclick="newEntry()"> new entry </button>
+            </footer>
+        </div>
+    </body>
+</html>
